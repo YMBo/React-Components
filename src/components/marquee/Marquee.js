@@ -36,6 +36,11 @@ class App extends Component {
 		this.init();
 		this.start();
 	}
+	componentWillReceiveProps(){
+		this.destory();
+		this.init();
+		this.start();
+	}
 	destory(){
 		this.timer && clearInterval(this.timer)
 	}
