@@ -1,7 +1,7 @@
-import React,{Component} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Marquee from './Marquee.js'
+import Marquee from './components/marquee/Marquee.js'
 import registerServiceWorker from './registerServiceWorker';
 ReactDOM.render(
 	<Marquee direction='down'>
